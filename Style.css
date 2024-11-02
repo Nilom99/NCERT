@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Navbar styling */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #007BFF;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+}
+
+#feedback form, #view-feedback {
+    max-width: 600px;
+    margin: auto;
+}
+
+#feedback label, #feedback input, #feedback textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+#feedback button {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* Feedback display */
+#feedbackList {
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+.feedback-item {
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
